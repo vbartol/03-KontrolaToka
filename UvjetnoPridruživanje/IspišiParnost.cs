@@ -19,8 +19,7 @@ namespace Vsite.CSharp
             // "paran" ili "neparan" ovisno o djeljivosti zadanog broja
             string odgovor = "neparan";
             if (broj % 2 == 0)
-            
-                odgovor = " paran";
+                odgovor = "paran";
             
 
             Console.WriteLine("Broj {0} je {1}", broj, odgovor);
